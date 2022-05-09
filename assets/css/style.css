@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
- background: rgba(135, 211, 124, 1);
+ background: #008036;
 }
 
 #header .logo {
@@ -189,8 +189,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .getstarted:hover {
-  color: #87D37C;
+  color: #008036;
   background: #fff;
+  padding: 8px 20px;
 }
 
 .navbar .dropdown ul {
@@ -399,11 +400,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #008036;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #fff;
+  color:  #008036;
 }
 
 #hero .btn-watch-video {
@@ -425,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #008036;
 }
 
 #hero .animated {
@@ -523,7 +525,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #87D37C;
+  color: #008036;
 }
 
 .section-title h2::before {
@@ -543,7 +545,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #87D37C;
+  background: #008036;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -606,7 +608,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #47b2e4;
+  color: #87D37C;
   line-height: 1;
 }
 
@@ -624,15 +626,15 @@ section {
   border-radius: 4px;
   transition: 0.3s;
   line-height: 1;
-  color: #47b2e4;
+  color: #87D37C;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #87D37C;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #47b2e4;
+  background: #87D37C;
   color: #fff;
   text-decoration: none;
 }
@@ -647,7 +649,7 @@ section {
 .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-  color: #37517e;
+  color: #87D37C;
 }
 
 .why-us .content h4 {
