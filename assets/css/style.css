@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(135, 211, 124, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -322,12 +322,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #008036;
 }
 
 .navbar-mobile .getstarted {
   margin: 15px;
-  color: #37517e;
+  color: #87D37C;
 }
 
 .navbar-mobile .dropdown ul {
@@ -842,7 +842,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #47b2e4;
+  color: #008036;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -854,7 +854,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #37517e;
+  color: #008036;
   transition: ease-in-out 0.3s;
 }
 
@@ -869,7 +869,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #47b2e4;
+  color: #008036;
 }
 
 /*--------------------------------------------------------------
@@ -947,7 +947,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #47b2e4;
+  background: #008036;
   color: #fff;
 }
 
@@ -971,7 +971,7 @@ section {
   z-index: 3;
   right: 15px;
   transition: all 0.3s;
-  background: rgba(55, 81, 126, 0.8);
+  background: #87D37C;    /*rgba(55, 81, 126, 0.8)*/
   padding: 10px 15px;
 }
 
@@ -1113,7 +1113,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
-  color: #37517e;
+  color: #008036;
 }
 
 .team .member span {
@@ -1626,7 +1626,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #008036;
 }
 
 #footer .footer-newsletter {
@@ -1753,13 +1753,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #008036;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #87D37C;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1772,7 +1772,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #209dd8;
+  background: #008036;
   color: #fff;
   text-decoration: none;
 }
@@ -1795,6 +1795,8 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+  color: #FFF;
+  font-weight: bold ;
 }
 
 @media (max-width: 768px) {
